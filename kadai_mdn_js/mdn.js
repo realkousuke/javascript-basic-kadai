@@ -1,9 +1,10 @@
-const date = new Date ([2023, 8, 22]);
+const date = new Date();
 
 const [month, day, year] = [
-    date.getMonth(),
-    date.getDate(),
-    date.getFullYear(),
-]
+  date.getMonth(),
+  date.getDate(),
+  date.getFullYear(),
+];
 
-console.log(year + '年', month + '年', day + '日');
+console.log(date);
+console.log(year + '年', month + '月', day + '日');
