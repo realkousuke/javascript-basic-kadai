@@ -1,5 +1,5 @@
-const calculateTotal = (num) => {
-    console.log(num *num);
+const double = (num) => {
+    return num *num;
 }
 
-calculateTotal(10);
+console.log(double(10));
